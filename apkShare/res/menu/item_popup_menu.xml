@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_popup_copylink" android:title="@string/action_popup_copylink" />
+    <item android:id="@id/action_popup_searchingoogleplay" android:title="@string/action_popup_searchingoogleplay" />
+    <item android:id="@id/action_popup_launch" android:title="@string/action_popup_launch" />
+    <item android:id="@id/action_popup_sharelink" android:title="@string/action_popup_sharelink" />
+    <item android:id="@id/action_popup_savetosdcard" android:title="@string/action_popup_savetosdcard" />
+    <item android:id="@id/action_popup_selectall" android:title="@string/action_popup_selectall" />
+    <item android:id="@id/action_popup_unselectall" android:title="@string/action_popup_unselectall" />
+</menu>

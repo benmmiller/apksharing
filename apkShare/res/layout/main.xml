@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tool_bar" layout="@layout/tool_bar" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="40.0dip">
+        <LinearLayout android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textColor="@null" android:layout_width="-2" android:layout_height="-2" android:text="@string/sizelabel" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/ColorPrimary" android:id="@id/selectedsizetotal" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:text="0mb/0mb" />
+        </LinearLayout>
+        <View android:layout_gravity="0x00000010" android:background="@color/ColorPrimary" android:layout_width="1.0dip" android:layout_height="20.0dip" />
+        <LinearLayout android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textColor="@null" android:layout_width="-2" android:layout_height="-2" android:text="@string/apps" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/ColorPrimary" android:id="@id/selectedappstotal" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:text="0/100" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/LinearLayout01" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swiperefresh" android:layout_width="-1" android:layout_height="-1">
+            <ListView android:id="@id/installed_apps_listview" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@null" android:divider="#40fffffe" android:dividerHeight="1.0px" android:fastScrollEnabled="false" android:animateLayoutChanges="true" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@id/loading_progress_bar" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@id/loading_error" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TextView android:textSize="16.0dip" android:id="@id/loading_error_msg" android:layout_width="-2" android:layout_height="-2" />
+            <Button android:id="@id/retry" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@id/ad_linearlayout" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="@id/controll_linearlayout" android:background="@drawable/bottom_bar_bg" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <ImageButton android:layout_gravity="0x00000011" android:id="@id/refresh_button" android:background="@null" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/refresh_button_selector" android:layout_weight="3.0" />
+            <Button android:textStyle="0x00000001" android:textColor="#ffffffff" android:layout_gravity="0x00000011" android:id="@id/send_selected_apps_button" android:background="@drawable/uninstall_button_selector" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minWidth="166.0dip" android:text="@string/sendbutton" android:maxLines="1" android:layout_weight="2.0" />
+            <ImageButton android:layout_gravity="0x00000011" android:id="@id/select_all_button" android:background="@null" android:padding="4.0dip" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/select_all_button_selector" android:scaleType="5" android:layout_weight="3.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_ads" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="NoAppsSelected">No Apps Selected. Please select apps first.</string>
+    <string name="PermissionDenied">Permission denied</string>
+    <string name="action_popup_copylink">Copy Link</string>
+    <string name="action_popup_copylink_success">Link Copied Successfully</string>
+    <string name="action_popup_launch">Launch</string>
+    <string name="action_popup_savetosdcard">Save To SD Card</string>
+    <string name="action_popup_savetosdcardsuccess">Saved successfully $1</string>
+    <string name="action_popup_searchingoogleplay">Search In Play Store</string>
+    <string name="action_popup_selectall">Select all</string>
+    <string name="action_popup_sharelink">Share Link</string>
+    <string name="action_popup_unselectall">Unselect all</string>
+    <string name="app_name">Apk Share</string>
+    <string name="apps">Apps</string>
+    <string name="follow">Follow</string>
+    <string name="lbl_installedon">Installed On:</string>
+    <string name="lbl_version">Version:</string>
+    <string name="lblsearch">search...</string>
+    <string name="lblshowsysapp">Show System Apps</string>
+    <string name="msg_loading">Loading...</string>
+    <string name="permissions">Permissions</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="rate">Vote</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="sendbutton">Send/Share</string>
+    <string name="sizelabel">Size</string>
+    <string name="sizelabel2">Size:</string>
+    <string name="sortby">Sort By</string>
+    <string name="sortbydate">Install Date</string>
+    <string name="sortbyname">Name</string>
+    <string name="sortbysize">Size</string>
+</resources>

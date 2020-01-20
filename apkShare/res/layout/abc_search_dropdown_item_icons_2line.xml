@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="58.0dip" style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@null" android:visibility="1" android:layout_width="@dimen/abc_dropdownitem_icon_width" android:layout_height="48.0dip" android:scaleType="7" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" />
+    <ImageView android:id="@id/edit_query" android:background="?selectableItemBackground" android:visibility="2" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="7" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Query" />
+    <ImageView android:id="@null" android:visibility="2" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="7" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" />
+    <TextView android:textAppearance="?textAppearanceSearchResultSubtitle" android:gravity="0x00000030" android:id="@null" android:paddingBottom="4.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="29.0dip" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" style="@null" />
+    <TextView android:textAppearance="?textAppearanceSearchResultTitle" android:id="@null" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_above="@null" android:layout_centerVertical="true" style="@null" />
+</RelativeLayout>

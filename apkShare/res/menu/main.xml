@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_showsystemapp" android:orderInCategory="1" android:title="@string/lblshowsysapp" app:actionViewClass="android.widget.CheckBox" app:showAsAction="never" />
+    <item android:id="@id/action_search" android:orderInCategory="2" android:title="@string/lblsearch" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_sort" android:id="@id/action_sort" android:orderInCategory="3" android:title="@string/sortby" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_fb_follow" android:orderInCategory="4" android:title="@string/follow" />
+    <item android:id="@id/action_rate" android:orderInCategory="5" android:title="@string/rate" />
+    <item android:id="@id/action_popup_copylink" android:orderInCategory="6" android:title="@string/action_popup_copylink" />
+    <item android:id="@id/action_popup_searchingoogleplay" android:orderInCategory="7" android:title="@string/action_popup_searchingoogleplay" />
+    <item android:id="@id/action_popup_launch" android:orderInCategory="8" android:title="@string/action_popup_launch" />
+    <item android:id="@id/action_popup_sharelink" android:orderInCategory="9" android:title="@string/action_popup_sharelink" />
+    <item android:id="@id/action_popup_savetosdcard" android:orderInCategory="10" android:title="@string/action_popup_savetosdcard" />
+    <item android:id="@id/action_remove_ads" android:orderInCategory="11" android:title="@string/remove_ads" />
+    <item android:id="@id/action_privacypolicy" android:orderInCategory="12" android:title="@string/privacy" />
+</menu>

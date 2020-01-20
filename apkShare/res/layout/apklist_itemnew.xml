@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/applogo" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_margin="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="0x00000010" android:id="@id/appname" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3.0dip" android:layout_toRightOf="@id/applogo" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffbebebe" android:id="@id/appdate" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffbebebe" android:id="@id/appsize" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:text="" android:layout_toLeftOf="@id/appdate" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/appinfo" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@drawable/info" />
+    <View android:background="#fff1eded" android:layout_width="-1" android:layout_height="1.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat" />
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" parent="" />
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner" />
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="" />
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton" parent="" />
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton" />
+</resources>
